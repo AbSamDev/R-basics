@@ -144,6 +144,18 @@ my.names=3
 za=class(b)
 print(z)
 
+#R language factor()
+fields <- c("IT", "medical", "engineerig")
+print(data)
+print(is.factor(data)) #output: False
+
+# Apply the factor function.
+factor_data <- factor(fields)
+
+print(factor_data)
+print(is.factor(factor_data))  # output True 
+
+
 ####use of ls()     #showing all available variable names at workspace
 print(ls())
 print(ls(all.names = TRUE))    #usually variable name start with dot are not displayed with ls() 
