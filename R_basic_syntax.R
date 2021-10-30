@@ -1,4 +1,7 @@
+# R language basic syntax. 
+# R language usage: client assesement, fruad detection
 #################different methods to assign value#################
+
 a = 2         #=
 print(a)
 a <- 3        #<-
