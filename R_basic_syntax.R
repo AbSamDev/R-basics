@@ -10,6 +10,27 @@ print(a)
 a <<- 5       #<<-
 print(a)
 
+# R data types
+
+# Integer
+i <- 2L
+print(class(i))
+
+# Numeric
+n <- 45
+print(class(n))
+
+# logical
+v <- TRUE 
+print(class(v))
+
+# character
+c <- "TRUE"
+print(class(c))
+
+# Raw
+r <- charToRaw("Hello")
+print(class(r))
 
 #################Basic Arithmetics#################
 #add two values
