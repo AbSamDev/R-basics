@@ -182,4 +182,13 @@ b  <- c(2, 14, 0, 11)
 sumFull <- sum(a,b)
 print(sum4)
 
+####Data Reshaping####
+# Create vector objects.
+city <- c("Tampa","Seattle","Hartford","Denver")
+state <- c("GR","WL","CJ","CY")
+zipcode <- c(33602,9204,061261,80214)
+
+# Combine above three vectors into one data frame.
+addresses <- cbind(city,state,zipcode)
+
       
